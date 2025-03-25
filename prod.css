@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif(rgb(250, 249, 249));
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/premium-photo/rusty-gears-cogs-grunge-background_1022970-32289.jpg");
+}
+
+#header {
+    background: #361500;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    top: 0;
+    width: 100%;
+
+
+}
+
+#header-img {
+    height: 60px;
+    width: 60px;
+
+}
+
+
+#nav-bar {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    right: 80px;
+
+}
+
+a {
+    color: white;
+}
+
+section p {
+    color: white;
+
+}
+img {
+    width: 350px;
+    height: 250px;
+}
+#Camaro{
+    /* Center image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+#Porsche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+#AC-Cobra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+#video-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+#About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+ 
+
+
+@media (max-width: 600px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+}
